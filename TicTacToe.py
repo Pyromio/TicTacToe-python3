@@ -58,5 +58,6 @@ def main():
 		if check_for_win(board) == "Computer":
 			print("You lose! Try again.")
 			break
+	input()
 
 main()
